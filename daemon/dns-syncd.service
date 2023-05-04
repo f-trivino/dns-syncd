@@ -1,0 +1,11 @@
+[Unit]
+Description=IPA DNS Sync daemon
+
+[Service]
+ExecStart=/usr/libexec/ipa/dns/dns-syncd
+PrivateTmp=yes
+Restart=on-failure
+RestartSec=60s
+
+[Install]
+WantedBy=multi-user.target
