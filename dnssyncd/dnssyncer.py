@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020  FreeIPA Contributors see COPYING for license
+# Copyright (C) 2023  FreeIPA Contributors see COPYING for license
 #
 
 from __future__ import absolute_import
