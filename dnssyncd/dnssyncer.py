@@ -18,7 +18,10 @@ from ipapython import ipaldap
 from ipapython.dn import DN
 
 
+logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
 
 OBJCLASS_ATTR = 'objectClass'
 DNS_COOKIE = "/var/lib/ipa/dns_cookie"
